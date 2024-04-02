@@ -1,0 +1,58 @@
+{
+  "decks": [
+    {
+      "name": "React Router",
+      "description": "This is a study deck to review React Router terminology",
+      "id": 1
+    },
+    {
+      "name": "Another Deck",
+      "description": "Here is another deck",
+      "id": 2
+    }
+  ],
+  "cards": [
+    {
+      "front": "<Router> Component",
+      "back": "- Used as an alias for <BrowserRouter>\n- Defines the scope of routing within the app",
+      "deckId": 1,
+      "id": 1
+    },
+    {
+      "front": "<Routes> component",
+      "back": "- Manages multiple <Route> components\n- Acts as decision-maker and determines which component should be rendered based on the current URL",
+      "deckId": 1,
+      "id": 2
+    },
+    {
+      "front": "<Route> Component",
+      "back": "- Renders the UI when its path matches the current URL\n- One without a path always matches the URL",
+      "deckId": 1,
+      "id": 3
+    },
+    {
+      "front": "<Link> Component",
+      "back": "- Allows the user to navigate between pages without having to type into the address bar",
+      "deckId": 1,
+      "id": 4
+    },
+    {
+      "front": "abc",
+      "back": "def",
+      "deckId": 2,
+      "id": 5
+    },
+    {
+      "front": "abc",
+      "back": "def",
+      "deckId": 2,
+      "id": 6
+    },
+    {
+      "front": "abc",
+      "back": "def",
+      "deckId": 2,
+      "id": 7
+    }
+  ]
+}
